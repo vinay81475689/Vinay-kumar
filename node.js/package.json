@@ -1,0 +1,17 @@
+{
+  "name": "fsdjs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx tsc ",
+    "dev": "npx tsc && node index.js"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}

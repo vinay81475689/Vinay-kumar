@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FST Tests" thread-count="4" parallel = "classes">
+    <test name="Activities">
+        <classes>
+            <class name="HRM.titlecheck" />
+             <class name="HRM.login" />
+            <class name="HRM.directory" />
+           
+        </classes>
+    </test>
+</suite>

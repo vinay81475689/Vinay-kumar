@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [FST Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Activities(failed)">
+    <classes>
+      <class name="HRM.directory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigatetodirectory"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- HRM.directory -->
+    </classes>
+  </test> <!-- Activities(failed) -->
+</suite> <!-- Failed suite [FST Tests] -->

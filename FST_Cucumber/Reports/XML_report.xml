@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.44" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-16T09:58:52.968986200Z">
+<testcase classname="Parameterized example" name="Login test - #1.2" time="1.66">
+<system-out><![CDATA[
+Given The user is on the login page.........................................passed
+When they enter "admin" and "password"......................................passed
+And click the submit button.................................................passed
+Then the message displays "Welcome Back, Admin!"............................passed
+]]></system-out>
+</testcase>
+</testsuite>
